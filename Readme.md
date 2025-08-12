@@ -31,4 +31,7 @@ This will eliminate the need for manual verification and build trust between ins
 ---
 
 ## 5. Contract Address
-The deployed contract address will be updated after deployment. Example:
+The deployed contract address will be updated after deployment.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/aa9cab51-86aa-4fb7-9de6-fa6c8ad1a497" />
+
+Contract Address: ST3G47H43ADRFZAQAD9KS91NWDXNSZH9EGY8HHJ3M.student-certificate-issuer
