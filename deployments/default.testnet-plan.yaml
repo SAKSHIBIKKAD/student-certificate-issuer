@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: student-certificate-issuer
+            expected-sender: ST3G47H43ADRFZAQAD9KS91NWDXNSZH9EGY8HHJ3M
+            cost: 9990
+            path: "contracts\\student-certificate-issuer.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
